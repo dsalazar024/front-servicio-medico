@@ -13,6 +13,86 @@ table.dataTable tbody tr.even {
   background-color: #E7E8E8 !important;
 }
 
+td {
+  height: 50px;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.dataTables_length label, .dataTables_length select, .dataTables_info, .dataTables_paginate.paging_simple_numbers {
+  font-family: "Lato", sans-serif !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+  font-family: "Lato", sans-serif !important;
+}
+
+th.disableMe {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.dataTables_filter input {
+  font-family: "Lato", sans-serif !important;
+}
 
 /* line 74, ../../src/scss/_tableresponsive.scss */
 .table-responsive .tbl-report input,

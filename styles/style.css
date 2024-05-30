@@ -1,0 +1,61 @@
+.button-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.raleway_regular {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.raleway_bold {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button-options a > i {
+  font-size: 22px;
+}
+
+.button-options a > i.bi-icons-basurero-default {
+  color: #c92a12;
+}
+
+.button-options a > i.bi-icons-lapiz {
+  color: #0b22b6;
+}
+
+span.bi-icons-informacion-circulo.tooltip {
+  top: 0px;
+  left: 25%;
+  position: absolute;
+}
+
+.principal-image {
+  position: relative;
+  height: 50vh;
+  background-image: url("../assets/Slider2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal-image p {
+    position: absolute;
+    top: 30%;
+  width: 50%;
+  left: 30%;
+  color: red;
+  transform: translateX(-50%);
+  color: rgb(17 24 39 / var(--tw-bg-opacity));
+  font-size: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .principal-image {
+    background-size: contain !important;
+  }
+}
