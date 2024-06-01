@@ -1,8 +1,8 @@
 @font-face {
 font-family: 'Bi-Iconos';
-src: url("../fonts/Bi-Iconos.ttf") format("truetype"),
-url("../fonts/Bi-Iconos.eot") format("embedded-opentype"),
-url("../fonts/Bi-Iconos.woff") format("woff");
+src: url("../fonts/Iconos.ttf") format("truetype"),
+url("../fonts/Iconos.eot") format("embedded-opentype"),
+url("../fonts/Iconos.woff") format("woff");
 }
 .bi-icons {
     font-family: 'Bi-Iconos' !important;
